@@ -23,4 +23,9 @@ class Example
     {
         return "Hello, {$name}!";
     }
+
+    public function farewell(string $name = 'World'): string
+    {
+        return "Farewell, {$name}!";
+    }
 }

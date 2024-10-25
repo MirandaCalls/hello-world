@@ -15,4 +15,12 @@ class ExampleTest extends TestCase
 
         $this->assertSame('Hello, Friends!', $example->greet('Friends'));
     }
+
+    public function testFarewell(): void
+    {
+        $example = $this->mockery(Example::class);
+        $example->shouldReceive('farewell')->passthru();
+
+        $this->assertSame('Farewell, Friends!', $example->farewell('Friends'));
+    }
 }
