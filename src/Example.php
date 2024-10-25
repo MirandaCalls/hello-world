@@ -3,7 +3,7 @@
 /**
  * This file is part of mirandacalls/hello-world
  *
- * @copyright Copyright (c) MirandaCalls <gmaidenmueller@gmail.com>
+ * @copyright Copyright (c) MirandaCalls
  * @license https://opensource.org/license/mit/ MIT License
  */
 

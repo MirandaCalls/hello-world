@@ -4,12 +4,12 @@
     "license": "MIT",
     "type": "library",
     "keywords": [
-        "example"
+        "example",
+        "library"
     ],
     "authors": [
         {
             "name": "MirandaCalls",
-            "email": "gmaidenmueller@gmail.com",
             "homepage": "https://github.com/MirandaCalls"
         }
     ],
@@ -33,12 +33,12 @@
     },
     "config": {
         "allow-plugins": {
-            "php-http/discovery": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true,
-            "ramsey/composer-repl": true,
-            "phpstan/extension-installer": true,
-            "ergebnis/composer-normalize": true,
             "captainhook/plugin-composer": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "ergebnis/composer-normalize": true,
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true,
+            "ramsey/composer-repl": true,
             "ramsey/devtools": true
         },
         "sort-packages": true
